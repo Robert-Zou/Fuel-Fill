@@ -9,6 +9,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.IBinder;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.util.Log;
 
 import com.smartdevicelink.managers.CompletionListener;
@@ -24,16 +26,23 @@ import com.smartdevicelink.managers.screen.menu.VoiceCommand;
 import com.smartdevicelink.managers.screen.menu.VoiceCommandSelectionListener;
 import com.smartdevicelink.protocol.enums.FunctionID;
 import com.smartdevicelink.proxy.RPCNotification;
+import com.smartdevicelink.proxy.RPCResponse;
 import com.smartdevicelink.proxy.TTSChunkFactory;
 import com.smartdevicelink.proxy.rpc.Alert;
+import com.smartdevicelink.proxy.rpc.GetVehicleData;
+import com.smartdevicelink.proxy.rpc.GetVehicleDataResponse;
 import com.smartdevicelink.proxy.rpc.OnHMIStatus;
+import com.smartdevicelink.proxy.rpc.OnVehicleData;
 import com.smartdevicelink.proxy.rpc.Speak;
+import com.smartdevicelink.proxy.rpc.SubscribeVehicleData;
 import com.smartdevicelink.proxy.rpc.enums.AppHMIType;
 import com.smartdevicelink.proxy.rpc.enums.FileType;
 import com.smartdevicelink.proxy.rpc.enums.HMILevel;
 import com.smartdevicelink.proxy.rpc.enums.InteractionMode;
+import com.smartdevicelink.proxy.rpc.enums.Result;
 import com.smartdevicelink.proxy.rpc.enums.TriggerSource;
 import com.smartdevicelink.proxy.rpc.listeners.OnRPCNotificationListener;
+import com.smartdevicelink.proxy.rpc.listeners.OnRPCResponseListener;
 import com.smartdevicelink.transport.BaseTransportConfig;
 import com.smartdevicelink.transport.MultiplexTransportConfig;
 import com.smartdevicelink.transport.TCPTransportConfig;
@@ -47,16 +56,15 @@ import java.util.Vector;
 
 public class SdlService extends Service {
 
+	/** ---- Default developer settings provided by Ford ---- **/
 	private static final String TAG 					= "SDL Service";
-
-	private static final String APP_NAME 				= "Hello Sdl";
+	private static final String APP_NAME 				= "Fuel";
 	private static final String APP_ID 					= "8678309";
-
 	private static final String ICON_FILENAME 			= "hello_sdl_icon.png";
 	private static final String SDL_IMAGE_FILENAME  	= "sdl_full_image.png";
 
-	private static final String WELCOME_SHOW 			= "Welcome to HelloSDL";
-	private static final String WELCOME_SPEAK 			= "Welcome to Hello S D L";
+	private static final String WELCOME_SHOW 			= "Welcome to " + APP_NAME;
+	private static final String WELCOME_SPEAK 			= "Welcome to " + APP_NAME;
 
 	private static final String TEST_COMMAND_NAME 		= "Test Command";
 
@@ -65,12 +73,24 @@ public class SdlService extends Service {
 	// TCP/IP transport config
 	// The default port is 12345
 	// The IP is of the machine that is running SDL Core
-	private static final int TCP_PORT = 12345;
+	private static final int TCP_PORT = 13753;
 	private static final String DEV_MACHINE_IP_ADDRESS = "m.sdl.tools";
+//	private static final String DEV_MACHINE_IP_ADDRESS = "78:4f:43:53:1b:44";
+	private double MAX_GAS_LEVEL = 1.00;
+	private double LOW_GAS_LEVEL = 1.00;
 
 	// variable to create and call functions of the SyncProxy
 	private SdlManager sdlManager = null;
 	private List<ChoiceCell> choiceCellList;
+
+	/** --------------------------------------------------- **/
+
+
+	/** ---- Project-Specific Defined Variables ---- **/
+
+	private List<Station> gasChoices;		  // Stores the top 4 gas stations found
+	private List<ChoiceCell> gasChoiceList;	  // Converts station objects into a choice-cell to show on screen
+	private double currGasLevel = 1.00;
 
 	@Override
 	public IBinder onBind(Intent intent) {
@@ -171,9 +191,26 @@ public class SdlService extends Service {
 							if (status.getHmiLevel() == HMILevel.HMI_FULL && ((OnHMIStatus) notification).getFirstRun()) {
 								setVoiceCommands();
 								sendMenus();
-								performWelcomeSpeak();
 								performWelcomeShow();
-								preloadChoices();
+								subscribeData();
+							}
+						}
+					});
+
+					// Define listener for fuel-level (if updated fuel level ever reaches below a threshold, handle it by calling fillGas)
+					sdlManager.addOnRPCNotificationListener(FunctionID.ON_VEHICLE_DATA, new OnRPCNotificationListener() {
+						@Override
+						public void onNotified(RPCNotification notification) {
+							OnVehicleData onVehicleDataNotification = (OnVehicleData) notification;
+							if (onVehicleDataNotification.getFuelLevel() != null) {
+								currGasLevel = onVehicleDataNotification.getFuelLevel();
+								Log.i("SdlService", "Fuel level was updated to: " + currGasLevel);
+							}
+
+							// If fuel level is below a threshold, execute fillGas method
+							if (currGasLevel < LOW_GAS_LEVEL) {
+								showAlert("Gas is low!");
+								fillGas();
 							}
 						}
 					});
@@ -195,12 +232,16 @@ public class SdlService extends Service {
 			// The manager builder sets options for your session
 			SdlManager.Builder builder = new SdlManager.Builder(this, APP_ID, APP_NAME, listener);
 			builder.setAppTypes(appType);
-			builder.setTransportType(transport);
+			//builder.setTransportType(transport);
+			builder.setTransportType(new TCPTransportConfig(TCP_PORT, DEV_MACHINE_IP_ADDRESS, true));
 			builder.setAppIcon(appIcon);
 			sdlManager = builder.build();
 			sdlManager.start();
 		}
 	}
+
+
+	/** ---- Default Ford-Defined Functions ---- **/
 
 	/**
 	 * Send some voice commands
@@ -238,7 +279,7 @@ public class SdlService extends Service {
 		// some voice commands
 		List<String> voice2 = Collections.singletonList("Cell two");
 
-		MenuCell mainCell1 = new MenuCell("Test Cell 1 (speak)", livio, null, new MenuSelectionListener() {
+		MenuCell mainCell1 = new MenuCell("Navigate to nearest gas station", livio, null, new MenuSelectionListener() {
 			@Override
 			public void onTriggered(TriggerSource trigger) {
 				Log.i(TAG, "Test cell 1 triggered. Source: "+ trigger.toString());
@@ -253,44 +294,8 @@ public class SdlService extends Service {
 			}
 		});
 
-		// SUB MENU
-
-		MenuCell subCell1 = new MenuCell("SubCell 1",null, null, new MenuSelectionListener() {
-			@Override
-			public void onTriggered(TriggerSource trigger) {
-				Log.i(TAG, "Sub cell 1 triggered. Source: "+ trigger.toString());
-			}
-		});
-
-		MenuCell subCell2 = new MenuCell("SubCell 2",null, null, new MenuSelectionListener() {
-			@Override
-			public void onTriggered(TriggerSource trigger) {
-				Log.i(TAG, "Sub cell 2 triggered. Source: "+ trigger.toString());
-			}
-		});
-
-		// sub menu parent cell
-		MenuCell mainCell3 = new MenuCell("Test Cell 3 (sub menu)", null, Arrays.asList(subCell1,subCell2));
-
-		MenuCell mainCell4 = new MenuCell("Show Perform Interaction", null, null, new MenuSelectionListener() {
-			@Override
-			public void onTriggered(TriggerSource trigger) {
-				showPerformInteraction();
-			}
-		});
-
-		MenuCell mainCell5 = new MenuCell("Clear the menu",null, null, new MenuSelectionListener() {
-			@Override
-			public void onTriggered(TriggerSource trigger) {
-				Log.i(TAG, "Clearing Menu. Source: "+ trigger.toString());
-				// Clear this thing
-				sdlManager.getScreenManager().setMenu(Collections.<MenuCell>emptyList());
-				showAlert("Menu Cleared");
-			}
-		});
-
 		// Send the entire menu off to be created
-		sdlManager.getScreenManager().setMenu(Arrays.asList(mainCell1, mainCell2, mainCell3, mainCell4, mainCell5));
+		sdlManager.getScreenManager().setMenu(Arrays.asList(mainCell1, mainCell2));
 	}
 
 	/**
@@ -339,19 +344,68 @@ public class SdlService extends Service {
 		sdlManager.sendRPC(alert);
 	}
 
-	// Choice Set
 
-	private void preloadChoices(){
-		ChoiceCell cell1 = new ChoiceCell("Item 1");
-		ChoiceCell cell2 = new ChoiceCell("Item 2");
-		ChoiceCell cell3 = new ChoiceCell("Item 3");
-		choiceCellList = new ArrayList<>(Arrays.asList(cell1,cell2,cell3));
-		sdlManager.getScreenManager().preloadChoices(choiceCellList, null);
+
+
+	/** ---- Project-Specific Defined Functions ---- **/
+
+	/**
+	 * Subscribe to necessary data (e.g. fuel level)
+	 *
+	 */
+	private void subscribeData() {
+		SubscribeVehicleData subscribeRequest = new SubscribeVehicleData();
+		subscribeRequest.setFuelLevel(true);
+		subscribeRequest.setOnRPCResponseListener(new OnRPCResponseListener() {
+			@Override
+			public void onResponse(int correlationId, RPCResponse response) {
+				if(response.getSuccess()){
+					Log.i("SdlService", "Successfully subscribed to vehicle data.");
+				}else{
+					Log.i("SdlService", "Request to subscribe to vehicle data was rejected.");
+				}
+			}
+
+			@Override
+			public void onError(int correlationId, Result resultCode, String info){
+				Log.e(TAG, "onError: "+ resultCode+ " | Info: "+ info );
+			}
+		});
+		sdlManager.sendRPC(subscribeRequest);
 	}
 
+
+	/**
+	 * Starts and executes the process of finding the optimal gas station, based on current location and nearby price/distance of gas stations
+	 */
+	private void fillGas() {
+		gasChoices = findClosestGasStations();
+
+		// Define "choices" for each gas station and add to choiceCellList
+
+		// Present closest gas stations to car screen here and prompt for user choice
+		showPerformInteraction();
+
+		// Take user's choice and execute navigation (or do nothing if user chose to ignore)
+
+	}
+
+
+	/**
+	 * Cost-Model calculation of the top 4 optimal gas station, based on distance/gas price
+	 * Returns a list of 4 nearest gas stations
+	 */
+	private List<Station> findClosestGasStations() {
+		return null;
+	}
+
+
+	/**
+	 * Performs user-car interaction for choosing gas station (on car screen)
+	 */
 	private void showPerformInteraction(){
 		if (choiceCellList != null) {
-			ChoiceSet choiceSet = new ChoiceSet("Choose an Item from the list", choiceCellList, new ChoiceSetSelectionListener() {
+			ChoiceSet choiceSet = new ChoiceSet("Choose a gas station:", choiceCellList, new ChoiceSetSelectionListener() {
 				@Override
 				public void onChoiceSelected(ChoiceCell choiceCell, TriggerSource triggerSource, int rowIndex) {
 					showAlert(choiceCell.getText() + " was selected");
@@ -365,4 +419,87 @@ public class SdlService extends Service {
 			sdlManager.getScreenManager().presentChoiceSet(choiceSet, InteractionMode.MANUAL_ONLY);
 		}
 	}
+
+
+	/**
+	 * Execute navigation
+	 * - Need to add destination into parameter
+	 */
+	private void executeNavigation(String destination) {
+		// 1. Can either figure out how to navigate via Ford SDL app
+		// 2. Or navigate via Google Maps
+	}
 }
+
+
+
+
+
+
+
+
+// ------------------------ UNUSED CODE; SAVE IN CASE ------------------------ //
+
+// SUB MENU
+
+//	MenuCell subCell1 = new MenuCell("SubCell 1",null, null, new MenuSelectionListener() {
+////		@Override
+////		public void onTriggered(TriggerSource trigger) {
+////			Log.i(TAG, "Sub cell 1 triggered. Source: "+ trigger.toString());
+////		}
+////	});
+////
+////	MenuCell subCell2 = new MenuCell("SubCell 2",null, null, new MenuSelectionListener() {
+////		@Override
+////		public void onTriggered(TriggerSource trigger) {
+////			Log.i(TAG, "Sub cell 2 triggered. Source: "+ trigger.toString());
+////		}
+////	});
+////
+////	// sub menu parent cell
+////	MenuCell mainCell3 = new MenuCell("Test Cell 3 (sub menu)", null, Arrays.asList(subCell1,subCell2));
+////
+////	MenuCell mainCell4 = new MenuCell("Show Perform Interaction", null, null, new MenuSelectionListener() {
+////		@Override
+////		public void onTriggered(TriggerSource trigger) {
+////			showPerformInteraction();
+////		}
+////	});
+////
+////	MenuCell mainCell5 = new MenuCell("Clear the menu",null, null, new MenuSelectionListener() {
+////		@Override
+////		public void onTriggered(TriggerSource trigger) {
+////			Log.i(TAG, "Clearing Menu. Source: "+ trigger.toString());
+////			// Clear this thing
+////			sdlManager.getScreenManager().setMenu(Collections.<MenuCell>emptyList());
+////			showAlert("Menu Cleared");
+////		}
+////	});
+
+// Don't want this
+//	private void preloadChoices(){
+//		ChoiceCell cell1 = new ChoiceCell("Item 1");
+//		ChoiceCell cell2 = new ChoiceCell("Item 2");
+//		ChoiceCell cell3 = new ChoiceCell("Item 3");
+//		choiceCellList = new ArrayList<>(Arrays.asList(cell1,cell2,cell3));
+//		sdlManager.getScreenManager().preloadChoices(choiceCellList, null);
+//	}
+//
+
+// Temporarily saves these gas stations
+//	private void presentChoices() {
+//		gasChoices = findClosestGasStations();
+//		ChoiceCell cell1 = new ChoiceCell("Item 1");
+//		ChoiceCell cell2 = new ChoiceCell("Item 2");
+//		ChoiceCell cell3 = new ChoiceCell("Item 3");
+//		choiceCellList = new ArrayList<>(Arrays.asList(cell1,cell2,cell3));
+//		sdlManager.getScreenManager().preloadChoices(choiceCellList, null);
+//	}
+
+//	private void preloadChoices(){
+//		ChoiceCell cell1 = new ChoiceCell("Item 1");
+//		ChoiceCell cell2 = new ChoiceCell("Item 2");
+//		ChoiceCell cell3 = new ChoiceCell("Item 3");
+//		choiceCellList = new ArrayList<>(Arrays.asList(cell1,cell2,cell3));
+//		sdlManager.getScreenManager().preloadChoices(choiceCellList, null);
+//	}

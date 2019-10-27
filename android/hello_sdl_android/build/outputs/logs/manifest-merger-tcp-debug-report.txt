@@ -1,0 +1,269 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:2:1-68:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/faf52f44e288a3b8745eb520fbbf1084/AndroidManifest.xml:17:1-22:12
+MERGED from [:sdl_android] /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/sdl_android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b5dc7d8c4c3b2afb1bd95e8d75b7eff7/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/3d3142f48ae9f411a7a917b9fa2d016d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b25b05b923297c83417b0363818fab37/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a6f586ea789ae1de0bb8a8d2a976896a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/5ccc438d3776467e8a6785fc1b21e4e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/e5ec0a2f44b18a0640a0be560fcf5f94/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9ea88e5d971fef05b79fe21e760c8af2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d18e7589823364bfee1de16bf918981a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ff43c9ba984eb930287d7ed566d8649b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ef39c38dc1c1eab966f0cc7233bb17b7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/814d9dd1a36c741556fa93f1042dfbab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/cd3f37241bb8d4613eba88becaae945d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/770b024fc2fe2f61571f944c6abccaa1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/78b0d85833118663f0d31aff8fd34c11/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4c9cc3875a3a0da05ad72c0603642ab6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e97ea1f567e4417e21de2fb775291660/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/348e43d716f29dde0b8d7c5ec870dd9e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3a5e1e033446c69ae30f766570a18289/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a0b415797bff365da611b39931354f62/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ec10a445e8f08ff12027329003b4c148/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/960415bb2bf1c4b2ef6a24c123cae64a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/803bca6279255e4b3be22cfa38adbe6e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c2b0c93c02b4efbb2a5bd474d6e6535b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7fe88bad413ed6a90651a08b33d45b44/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/78f65be92e8b8e295389a6db21178ee1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d765e9a840dc09c3f09760bc0e5ba4e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.smartdevicelink:bson_java_port:1.2.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/bson_java_port-1.2.0.aar/eded6045742d7503609f40644b4ee7e8/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/4d2731f12309575a5ab5beadcb76abda/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:2:1-68:12
+	package
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:4:11-44
+		INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+		INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:2:1-68:12
+		INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:3:11-57
+	android:versionCode
+		INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:2:1-68:12
+		INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:6:22-65
+uses-permission#android.permission.INTERNET
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:10:5-77
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:10:22-74
+uses-feature#android.hardware.usb.accessory
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:13:19-64
+application
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:15:5-66:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b5dc7d8c4c3b2afb1bd95e8d75b7eff7/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b5dc7d8c4c3b2afb1bd95e8d75b7eff7/AndroidManifest.xml:22:5-28:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4c9cc3875a3a0da05ad72c0603642ab6/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4c9cc3875a3a0da05ad72c0603642ab6/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e97ea1f567e4417e21de2fb775291660/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e97ea1f567e4417e21de2fb775291660/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4c9cc3875a3a0da05ad72c0603642ab6/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:18:9-41
+	tools:ignore
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:20:9-33
+	android:icon
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:17:9-43
+	android:allowBackup
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:16:9-36
+	android:theme
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:19:9-40
+activity#com.sdl.hellosdlandroid.MainActivity
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:21:9-29:20
+	android:label
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:22:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:27:27-74
+activity#com.smartdevicelink.transport.USBAccessoryAttachmentActivity
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:31:9-40:20
+	android:launchMode
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:32:19-49
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:31:19-94
+intent-filter#action:name:android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:33:13-35:29
+action#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:34:17-93
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:34:25-90
+meta-data#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:37:13-39:60
+	android:resource
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:39:17-57
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:38:17-82
+service#com.sdl.hellosdlandroid.SdlService
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:42:9-43:19
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:42:18-67
+service#com.sdl.hellosdlandroid.SdlRouterService
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:44:9-52:19
+	android:process
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:47:13-57
+	android:exported
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:46:13-36
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:45:13-45
+intent-filter#action:name:com.smartdevicelink.router.service
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:48:13-50:29
+action#com.smartdevicelink.router.service
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:49:17-76
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:49:25-74
+meta-data#@string/sdl_router_service_version_name
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:51:13-140
+	android:value
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:51:80-137
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:51:24-78
+receiver#com.sdl.hellosdlandroid.SdlReceiver
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:53:9-63:20
+	android:enabled
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:55:13-35
+	android:exported
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:56:13-36
+	tools:ignore
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:57:13-44
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:54:13-40
+intent-filter#action:name:android.bluetooth.device.action.ACL_CONNECTED+action:name:com.smartdevicelink.USB_ACCESSORY_ATTACHED+action:name:sdl.router.startservice
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:58:13-62:29
+action#com.smartdevicelink.USB_ACCESSORY_ATTACHED
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:59:17-84
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:59:25-82
+action#android.bluetooth.device.action.ACL_CONNECTED
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:60:17-88
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:60:25-85
+action#sdl.router.startservice
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:61:17-66
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:61:25-63
+activity#com.smartdevicelink.managers.lockscreen.SDLLockScreenActivity
+ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:64:9-65:51
+	android:launchMode
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:65:19-49
+	android:name
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml:64:19-95
+uses-sdk
+INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/faf52f44e288a3b8745eb520fbbf1084/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/faf52f44e288a3b8745eb520fbbf1084/AndroidManifest.xml:20:5-44
+MERGED from [:sdl_android] /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/sdl_android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-11:318
+MERGED from [:sdl_android] /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/sdl_android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-11:318
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b5dc7d8c4c3b2afb1bd95e8d75b7eff7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b5dc7d8c4c3b2afb1bd95e8d75b7eff7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/3d3142f48ae9f411a7a917b9fa2d016d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/3d3142f48ae9f411a7a917b9fa2d016d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b25b05b923297c83417b0363818fab37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b25b05b923297c83417b0363818fab37/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a6f586ea789ae1de0bb8a8d2a976896a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a6f586ea789ae1de0bb8a8d2a976896a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/5ccc438d3776467e8a6785fc1b21e4e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/5ccc438d3776467e8a6785fc1b21e4e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/e5ec0a2f44b18a0640a0be560fcf5f94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/e5ec0a2f44b18a0640a0be560fcf5f94/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9ea88e5d971fef05b79fe21e760c8af2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9ea88e5d971fef05b79fe21e760c8af2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d18e7589823364bfee1de16bf918981a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/d18e7589823364bfee1de16bf918981a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ff43c9ba984eb930287d7ed566d8649b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ff43c9ba984eb930287d7ed566d8649b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ef39c38dc1c1eab966f0cc7233bb17b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ef39c38dc1c1eab966f0cc7233bb17b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/814d9dd1a36c741556fa93f1042dfbab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/814d9dd1a36c741556fa93f1042dfbab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/cd3f37241bb8d4613eba88becaae945d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/cd3f37241bb8d4613eba88becaae945d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/770b024fc2fe2f61571f944c6abccaa1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/770b024fc2fe2f61571f944c6abccaa1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/78b0d85833118663f0d31aff8fd34c11/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/78b0d85833118663f0d31aff8fd34c11/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4c9cc3875a3a0da05ad72c0603642ab6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/4c9cc3875a3a0da05ad72c0603642ab6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e97ea1f567e4417e21de2fb775291660/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e97ea1f567e4417e21de2fb775291660/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/348e43d716f29dde0b8d7c5ec870dd9e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/348e43d716f29dde0b8d7c5ec870dd9e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3a5e1e033446c69ae30f766570a18289/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/3a5e1e033446c69ae30f766570a18289/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a0b415797bff365da611b39931354f62/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/a0b415797bff365da611b39931354f62/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ec10a445e8f08ff12027329003b4c148/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ec10a445e8f08ff12027329003b4c148/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/960415bb2bf1c4b2ef6a24c123cae64a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/960415bb2bf1c4b2ef6a24c123cae64a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/803bca6279255e4b3be22cfa38adbe6e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/803bca6279255e4b3be22cfa38adbe6e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c2b0c93c02b4efbb2a5bd474d6e6535b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/c2b0c93c02b4efbb2a5bd474d6e6535b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7fe88bad413ed6a90651a08b33d45b44/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7fe88bad413ed6a90651a08b33d45b44/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/78f65be92e8b8e295389a6db21178ee1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/78f65be92e8b8e295389a6db21178ee1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d765e9a840dc09c3f09760bc0e5ba4e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d765e9a840dc09c3f09760bc0e5ba4e1/AndroidManifest.xml:20:5-44
+MERGED from [com.smartdevicelink:bson_java_port:1.2.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/bson_java_port-1.2.0.aar/eded6045742d7503609f40644b4ee7e8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.smartdevicelink:bson_java_port:1.2.0] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/bson_java_port-1.2.0.aar/eded6045742d7503609f40644b4ee7e8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.2] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/4d2731f12309575a5ab5beadcb76abda/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/4d2731f12309575a5ab5beadcb76abda/AndroidManifest.xml:20:5-43
+INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:sdl_android] /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/sdl_android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-315
+	android:targetSdkVersion
+		INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+		INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+		ADDED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+		INJECTED from /Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/AndroidManifest.xml
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b5dc7d8c4c3b2afb1bd95e8d75b7eff7/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b5dc7d8c4c3b2afb1bd95e8d75b7eff7/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b5dc7d8c4c3b2afb1bd95e8d75b7eff7/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b5dc7d8c4c3b2afb1bd95e8d75b7eff7/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/surelywang/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/b5dc7d8c4c3b2afb1bd95e8d75b7eff7/AndroidManifest.xml:24:13-83

@@ -1,0 +1,4 @@
+#Sat Oct 26 14:58:11 PDT 2019
+base.0=/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/10
+path.0=classes.dex
+renamed.0=classes.dex
