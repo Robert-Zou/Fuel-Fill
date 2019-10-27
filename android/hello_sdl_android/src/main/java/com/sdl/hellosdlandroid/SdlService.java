@@ -73,7 +73,7 @@ public class SdlService extends Service {
 	// TCP/IP transport config
 	// The default port is 12345
 	// The IP is of the machine that is running SDL Core
-	private static final int TCP_PORT = 13753;
+	private static final int TCP_PORT = 17171;
 	private static final String DEV_MACHINE_IP_ADDRESS = "m.sdl.tools";
 //	private static final String DEV_MACHINE_IP_ADDRESS = "78:4f:43:53:1b:44";
 	private double MAX_GAS_LEVEL = 1.00;

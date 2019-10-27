@@ -1,4 +1,4 @@
-#Sat Oct 26 20:33:55 PDT 2019
+#Sat Oct 26 21:15:05 PDT 2019
 path.1=classes.dex
 path.0=classes.dex
 renamed.10=classes11.dex
@@ -10,19 +10,19 @@ renamed.5=classes6.dex
 renamed.4=classes5.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
-base.9=/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/12
+base.9=/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/17
 renamed.1=classes2.dex
-base.8=/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/11
+base.8=/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/16
 renamed.0=classes.dex
-base.7=/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/14
-base.6=/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/21
-base.5=/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/17
-base.4=/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/19
-base.3=/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/13
-base.2=/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/16
-base.1=/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/15
-base.0=/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/18
-base.10=/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/20
+base.7=/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/19
+base.6=/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/18
+base.5=/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/20
+base.4=/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/11
+base.3=/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/21
+base.2=/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/13
+base.1=/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/12
+base.0=/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/15
+base.10=/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/transforms/dexMerger/tcp/debug/14
 path.10=classes.dex
 path.9=classes.dex
 path.8=classes.dex

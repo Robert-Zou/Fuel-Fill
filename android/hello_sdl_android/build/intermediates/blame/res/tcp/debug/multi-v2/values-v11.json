@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/incremental/mergeTcpDebugResources/merged.dir/values-v11/values-v11.xml",
+            "outputFile": "/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/incremental/mergeTcpDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/res/values-v11/styles.xml",
+                    "source": "/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/src/main/res/values-v11/styles.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",

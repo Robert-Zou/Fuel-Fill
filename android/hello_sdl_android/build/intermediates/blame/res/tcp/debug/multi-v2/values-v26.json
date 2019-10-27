@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/incremental/mergeTcpDebugResources/merged.dir/values-v26/values-v26.xml",
+            "outputFile": "/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/incremental/mergeTcpDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
                     "source": "/Users/surelywang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/faf52f44e288a3b8745eb520fbbf1084/res/values-v26/values-v26.xml",

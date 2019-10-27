@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/incremental/mergeTcpDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/incremental/mergeTcpDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/surelywang/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/ff43c9ba984eb930287d7ed566d8649b/res/values/values.xml",
@@ -23,20 +23,22 @@
                     }
                 },
                 {
-                    "source": "/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/res/values/dimens.xml",
+                    "source": "/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "3,4",
+                        "startLines": "6,15",
                         "startColumns": "4,4",
-                        "startOffsets": "89,147",
-                        "endColumns": "57,55",
-                        "endOffsets": "142,198"
+                        "startOffsets": "186,512",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "474,667"
                     },
                     "to": {
-                        "startLines": "147,148",
+                        "startLines": "268,275",
                         "startColumns": "4,4",
-                        "startOffsets": "9948,10006",
-                        "endColumns": "57,55",
-                        "endOffsets": "10001,10057"
+                        "startOffsets": "18012,18305",
+                        "endLines": "274,277",
+                        "endColumns": "12,12",
+                        "endOffsets": "18300,18460"
                     }
                 },
                 {
@@ -59,24 +61,7 @@
                     }
                 },
                 {
-                    "source": "/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/sdl_android/build/intermediates/packaged_res/debug/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,120,193,269,335,402,503",
-                        "endColumns": "64,72,75,65,66,100,99",
-                        "endOffsets": "115,188,264,330,397,498,598"
-                    },
-                    "to": {
-                        "startLines": "211,213,256,257,258,259,260",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "13911,14046,17036,17112,17178,17245,17346",
-                        "endColumns": "64,72,75,65,66,100,99",
-                        "endOffsets": "13971,14114,17107,17173,17240,17341,17441"
-                    }
-                },
-                {
-                    "source": "/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/res/values/strings.xml",
+                    "source": "/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "5,3,4",
                         "startColumns": "4,4,4",
@@ -90,6 +75,23 @@
                         "startOffsets": "16877,16930,16985",
                         "endColumns": "52,54,50",
                         "endOffsets": "16925,16980,17031"
+                    }
+                },
+                {
+                    "source": "/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "89,147",
+                        "endColumns": "57,55",
+                        "endOffsets": "142,198"
+                    },
+                    "to": {
+                        "startLines": "147,148",
+                        "startColumns": "4,4",
+                        "startOffsets": "9948,10006",
+                        "endColumns": "57,55",
+                        "endOffsets": "10001,10057"
                     }
                 },
                 {
@@ -112,22 +114,20 @@
                     }
                 },
                 {
-                    "source": "/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/src/main/res/values/styles.xml",
+                    "source": "/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/sdl_android/build/intermediates/packaged_res/debug/values/values.xml",
                     "from": {
-                        "startLines": "6,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "186,512",
-                        "endLines": "12,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "474,667"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,120,193,269,335,402,503",
+                        "endColumns": "64,72,75,65,66,100,99",
+                        "endOffsets": "115,188,264,330,397,498,598"
                     },
                     "to": {
-                        "startLines": "268,275",
-                        "startColumns": "4,4",
-                        "startOffsets": "18012,18305",
-                        "endLines": "274,277",
-                        "endColumns": "12,12",
-                        "endOffsets": "18300,18460"
+                        "startLines": "211,213,256,257,258,259,260",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "13911,14046,17036,17112,17178,17245,17346",
+                        "endColumns": "64,72,75,65,66,100,99",
+                        "endOffsets": "13971,14114,17107,17173,17240,17341,17441"
                     }
                 }
             ]

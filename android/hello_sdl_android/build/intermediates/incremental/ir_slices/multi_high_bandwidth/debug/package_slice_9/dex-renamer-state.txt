@@ -1,0 +1,4 @@
+#Sat Oct 26 21:10:59 PDT 2019
+base.0=/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/transforms/dexMerger/multi_high_bandwidth/debug/9
+path.0=classes.dex
+renamed.0=classes.dex

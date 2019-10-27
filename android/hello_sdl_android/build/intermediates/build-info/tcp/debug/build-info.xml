@@ -6,106 +6,106 @@
     density="560dpi"
     format="10"
     plugin-version="3.3.1"
-    timestamp="1572147227321"
-    token="5758865221194912673"
+    timestamp="1572149974731"
+    token="-6904892085348440094"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="155" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="23" />
+        duration="0" />
     <task
         name="verifier"
-        duration="3" />
+        duration="0" />
 
     <artifact
-        location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_2.apk"
+        location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/instant-run-apk/tcp/debug/hello_sdl_android-tcp-debug.apk"
+        location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/resources/instant-run/tcp/debug/resources-tcp-debug.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/instant-run-apk/tcp/debug/hello_sdl_android-tcp-debug.apk"
         type="SPLIT_MAIN" />
-    <artifact
-        location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/resources/instant-run/tcp/debug/resources-tcp-debug.apk"
-        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1572147227321"
+        timestamp="1572149974731"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_2.apk"
+            location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/instant-run-apk/tcp/debug/hello_sdl_android-tcp-debug.apk"
+            location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/resources/instant-run/tcp/debug/resources-tcp-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/surelywang/Desktop/FuelFill/Fuel-Fill/android/hello_sdl_android/build/intermediates/instant-run-apk/tcp/debug/hello_sdl_android-tcp-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/split-apk/tcp/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/surelywang/Downloads/OSX/Starter Apps/sdl_java_suite-4.9.0/android/hello_sdl_android/build/intermediates/resources/instant-run/tcp/debug/resources-tcp-debug.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>
